@@ -37,3 +37,9 @@ $(function(){
     $(".barra-progresso").hide();
 }
 );
+
+/* Testar implementação de nova consulta.
+ 
+function novaconsultaCep(){
+    $(".consultaCep").show()
+} */
