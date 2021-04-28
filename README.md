@@ -10,5 +10,5 @@
 * Jquery
 * Ajax
 
-Este irá apresentar, após informado o CEP: irá repetir o número do CEP, logo após em formato de 
-tabela, aparecerá o nome da rua, bairro, cidade e UF a quem pertence no Brasil.
+Após informado o CEP: irá repetir o número do CEP, logo após em formato de 
+tabela aparecerá o nome da rua, bairro, cidade e UF a quem pertence no Brasil.

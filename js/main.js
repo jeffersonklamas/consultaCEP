@@ -1,5 +1,7 @@
 
 function consultaCep(){
+    /* $(".barra-progresso").hide(); */
+
     var cep = document.getElementById("cep").value;
     var url = "https://viacep.com.br/ws/" + cep + "/json/";
      
@@ -14,7 +16,10 @@ function consultaCep(){
             $("#logradouro").html(response.logradouro);
             $("#bairro").html(response.bairro);
             $("#localidade").html(response.localidade);
-            $("#uf").html(response.uf)
+            $("#uf").html(response.uf);
+            $(".lep").show()
+            /* $(".barra-progresso").hide(); */
+
             /* Pode ser assim.
             document.getElementById("complemento").innerHTML = response.complemento;
             document.getElementById("bairro").innerHTML = response.bairro;
@@ -25,5 +30,10 @@ function consultaCep(){
             */
         }
     })
-}
+};
 
+$(function(){
+    $(".lep").hide();
+    /* $(".barra-progresso").hide(); */
+}
+);
